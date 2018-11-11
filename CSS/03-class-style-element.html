@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Using CSS to Change Color of Text</title>
+	<title>Using CSS Class to Style an Element</title>
 </head>
+<!--
+	Inside your style element, change the h2 selector to .red-text and update the color's value from blue to red.
+
+	Give your h2 element the class attribute with a value of 'red-text'.
+-->
+
 <body>
-	
+	<style>
+		.red-text{
+			color: red;
+		}	
+	</style>
+
 	<h2>CatPhotoApp</h2>
-  <!-- Change Color of Text -->
-  <h2 style="color: red">CatPhotoApp</h2>
+	<!-- Using CSS style block. Add necesary CSS to turn h2 element blue -->
+	<h2 class="red-text">CatPhotoApp</h2>
 
 	<a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
   
